@@ -33,6 +33,7 @@ func ChatGPTGet(c *gin.Context) {
 	c.String(http.StatusOK, retMsg)
 
 }
+
 func main() {
 	gin.DisableConsoleColor()
 	gin.SetMode(gin.ReleaseMode)
